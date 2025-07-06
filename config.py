@@ -5,17 +5,17 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7538299689:AAF1H7SdOCoqqYgr2KwUv6IbrNUKVvW2AFg")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7538372843:AAGyLkdQukykJK9knn3aI94QaZvgRnsr0ks")
 API_ID = int(os.environ.get("API_ID", "20342933"))
 API_HASH = os.environ.get("API_HASH", "9233e5deebe6abfc9ba297a9678851be")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "8035487404"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://sanjusen212121:W2N3leOqranR8JE1@cluster0.kp8ub.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://sanjusen212121:bNOepCKRbeaOJSX3@cluster0.0yoyhwf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002296172217"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002672800994"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 
@@ -28,8 +28,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[8035487404]
-    for x in (os.environ.get("ADMINS", "8035487404").split()):
+    ADMINS=[5539467127]
+    for x in (os.environ.get("ADMINS", "5539467127").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -67,7 +67,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need 
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(8035487404)
+ADMINS.append(5539467127)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
