@@ -10,7 +10,7 @@ API_ID = int(os.environ.get("API_ID", "20342933"))
 API_HASH = os.environ.get("API_HASH", "9233e5deebe6abfc9ba297a9678851be")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "8035487404"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7507289705"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://sanjusen212121:iNk2kuO2jyPOmLZD@cluster0.ytunarv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
